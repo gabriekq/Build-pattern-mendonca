@@ -4,12 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-	  CarBuilder carBulder = new CarBuilder();
+	  Builder carBuilder = new CarBuilder();
 		
 	  Director director = new Director();
 	  
-	  director.defaultCar(carBulder);
-	   Car modelT = carBulder.build();
+	  director.defaultCar(carBuilder);
+	   Car modelT = ((CarBuilder) carBuilder).build();
 	   System.out.println(modelT);
 	   
 

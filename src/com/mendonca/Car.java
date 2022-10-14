@@ -26,54 +26,49 @@ public class Car {
 	}
 	
 	
-	public int getId() {
-		return id;
-	}
+	
+
+
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getBrand() {
-		return brand;
-	}
+
+
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
-	public String getModel() {
-		return model;
-	}
+
+
 	public void setModel(String model) {
 		this.model = model;
 	}
-	public String getColor() {
-		return color;
-	}
+
+
+
 	public void setColor(String color) {
 		this.color = color;
 	}
-	public int getNbrDoors() {
-		return nbrDoors;
-	}
+
+
 	public void setNbrDoors(int nbrDoors) {
 		this.nbrDoors = nbrDoors;
 	}
-	public String getScreenType() {
-		return screenType;
-	}
+
+
 	public void setScreenType(String screenType) {
 		this.screenType = screenType;
 	}
-	public double getWeight() {
-		return weight;
-	}
+
+
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
-	public double getHeight() {
-		return height;
-	}
+
+
 	public void setHeight(double height) {
 		this.height = height;
 	}
+
 
 
 	@Override
